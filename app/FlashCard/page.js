@@ -134,8 +134,6 @@ export default function Component() {
           </p>
         </div>
         <div className="flex gap-4">
-          <Button onClick={fetchPreviousTopics}>Previous Topics</Button>
-          <Button onClick={saveFlashcards}>Save Flashcards</Button>
         </div>
       </div>
       <div className="mb-8">
