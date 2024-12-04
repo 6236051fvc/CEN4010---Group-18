@@ -63,7 +63,7 @@ export default function Landing() {
                     <div>
                       <h3 className="text-lg font-semibold">Personalized Topics</h3>
                       <p className="text-muted-foreground">
-                        Create flashcards tailored to your interests. knowledge level.
+                        Create flashcards tailored to your interests and knowledge level.
                       </p>
                     </div>
                   </li>
@@ -76,15 +76,7 @@ export default function Landing() {
                       </p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="h-5 w-5 text-primary" />
-                    <div>
-                      <h3 className="text-lg font-semibold">INSERT TEXT</h3>
-                      <p className="text-muted-foreground">
-                        INSERT TEXT
-                      </p>
-                    </div>
-                  </li>
+                  
                 </ul>
               </div>
               <div className="flex items-center justify-center">
@@ -113,29 +105,20 @@ export default function Landing() {
               </Collapsible>
               <Collapsible className="rounded-md border bg-background shadow-sm">
                 <CollapsibleTrigger className="flex w-full items-center justify-between gap-4 px-4 py-3 text-lg font-medium [&[data-state=open]>svg]:rotate-90">
-                  INSERT TEXT
+                  Do I need an account to use InstaFlash?
                   <ChevronRightIcon className="h-5 w-5 transition-all" />
                 </CollapsibleTrigger>
                 <CollapsibleContent className="px-4 py-3 text-muted-foreground">
-                  INSERT TEXT
+                  Yes, you need to sign up to generate your flashcards and view them.
                 </CollapsibleContent>
               </Collapsible>
               <Collapsible className="rounded-md border bg-background shadow-sm">
                 <CollapsibleTrigger className="flex w-full items-center justify-between gap-4 px-4 py-3 text-lg font-medium [&[data-state=open]>svg]:rotate-90">
-                  INSERT TEXT
+                  What artificial intelligence does InstaFlash use?
                   <ChevronRightIcon className="h-5 w-5 transition-all" />
                 </CollapsibleTrigger>
                 <CollapsibleContent className="px-4 py-3 text-muted-foreground">
-                INSERT TEXT
-                </CollapsibleContent>
-              </Collapsible>
-              <Collapsible className="rounded-md border bg-background shadow-sm">
-                <CollapsibleTrigger className="flex w-full items-center justify-between gap-4 px-4 py-3 text-lg font-medium [&[data-state=open]>svg]:rotate-90">
-                  INSERT TEXT
-                  <ChevronRightIcon className="h-5 w-5 transition-all" />
-                </CollapsibleTrigger>
-                <CollapsibleContent className="px-4 py-3 text-muted-foreground">
-                INSERT TEXT
+                InstaFlash utilizes Google's Gemini AI to generate flashcards on any topic you need to study.
                 </CollapsibleContent>
               </Collapsible>
             </div>
